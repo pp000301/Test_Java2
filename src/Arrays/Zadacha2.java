@@ -26,10 +26,10 @@ public class Zadacha2 {
 
 
     public static void main(String[] args) {
-        int[] a=new int[200];
+        int[] a=new int[100];
         int k=0,l=1;
 
-        while (k<=100){
+        while (k<100){
             if (Del1(l)) {
                 a[k]=l;
                 k++;
