@@ -31,7 +31,7 @@ public class Zadacha1 {
 
         invert(n, a);
     }
-
+// Методы
     private static void invert(int n, int[] a) {
         out.println(" элементы массива в обратном порядке ");
 
