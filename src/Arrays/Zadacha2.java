@@ -16,13 +16,30 @@ public class Zadacha2 {
         }
     }
 
+    public static boolean Del1(int a) {
+
+        Boolean result=false;
+        if ((a%13==0)|(a%17==0))
+            result =true;
+        return result;
+    }
+
+
     public static void main(String[] args) {
-        int k=1,l=1;
+        int[] a=new int[200];
+        int k=0,l=1;
 
         while (k<=100){
-            if ()
-
+            if (Del1(l)) {
+                a[k]=l;
+                k++;
+            }
+            l++;
         }
+
+        sequence(a);
+
+
     }
 
 }
