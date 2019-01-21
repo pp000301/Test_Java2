@@ -40,6 +40,7 @@ public class Zadacha1 {
         }
     }
 
+
     private static void sequence(int n, int[] a) {
         out.println(" элементы массива в обычном порядке ");
         for (int i = 0; i <n ; i++) {
