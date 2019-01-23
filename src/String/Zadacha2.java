@@ -1,5 +1,5 @@
 package String;
-
+//Заменить все грустные смайлы :( в строке на весёлые :)
 import java.util.Scanner;
 
 import static java.lang.System.out;
