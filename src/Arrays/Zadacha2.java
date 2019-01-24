@@ -19,20 +19,20 @@ public class Zadacha2 {
 
     public static boolean Del1(int a) {
 
-        Boolean result=false;
-        if ((a%13==0)|(a%17==0))
-            result =true;
+        Boolean result = false;
+        if ((a % 13 == 0) | (a % 17 == 0))
+            result = true;
         return result;
     }
 
 
     public static void main(String[] args) {
-        int[] a=new int[100];
-        int k=0,l=1;
+        int[] a = new int[100];
+        int k = 0, l = 1;
 
-        while (k<100){
+        while (k < 100) {
             if (Del1(l)) {
-                a[k]=l;
+                a[k] = l;
                 k++;
             }
             l++;
