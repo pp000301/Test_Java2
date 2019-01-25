@@ -15,12 +15,16 @@ public class Zadacha5 {
         int n = sr.nextInt();
         String[] a = new String[4];
 
-        // бЛОК ВВОДА4
+         //бЛОК ВВОДА4
         out.print("ВВедите элементы первого массива ");
-    a[0]="8";
+
+
         for (int i = 0; i < n; i++) {
             a[i] = sr.nextLine();
         }
+
+        //out.println(a[0]);
+        out.println(a[1]);
 
         //out.println("ВВедите количество элементов Второго массива  ");
         //int l = sr.nextInt();
@@ -35,9 +39,9 @@ public class Zadacha5 {
         //Arrays.sort(a);
         //Arrays.sort(b);
 
-        for (int i = 0; i < n; i++) {
-            out.println(a[i]);
-        }
+        //for (int i = 0; i <= n; i++) {
+            //out.println(a[i]);
+        //}
 
 
     }
