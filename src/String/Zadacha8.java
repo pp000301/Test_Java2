@@ -16,6 +16,7 @@ public class Zadacha8 {
 
 
 
+
     }
     //Метод убирает дублируемые пробелы если они есть, принимает 2 параметра: масив char b и кол символов в нем.
     public static StringBuffer rez(char[] v, int z) {
