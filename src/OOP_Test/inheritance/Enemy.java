@@ -1,6 +1,10 @@
 package OOP_Test.inheritance;
 
-public class Enemy {
+import OOP_Test.polymorphism.Mortaleable;
+
+public class Enemy implements Mortaleable {
+
+
     private int health;
 
     public Enemy(int health) {
@@ -16,7 +20,14 @@ public class Enemy {
         return health;
     }
 
+    public int getHealth() {
+        System.out.println("Остаточное здоровье : "+ health);
+        return health;
+    }
 
 
-
+    @Override
+    public boolean isAlive() {
+        return health> 0;
+    }
 }
