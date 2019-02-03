@@ -1,0 +1,17 @@
+package oop_Test.hw.figuresLibrary;
+
+public class Triangle extends Foursquare {
+    int b;
+    int c;
+    Triangle(int a,int b,int c){
+        super(a);
+        this.b=b;
+        this.c=c;
+    }
+
+    @Override
+    public double square() {
+        int p=a+b+c;
+        return Math.sqrt(p*(p-a)*(p-b)*(p-c));
+    }
+}
