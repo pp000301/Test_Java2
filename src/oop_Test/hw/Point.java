@@ -40,6 +40,4 @@ public class Point {
         Point point = new Point(this.x, this.y);
         return point;
     }
-
-
 }
