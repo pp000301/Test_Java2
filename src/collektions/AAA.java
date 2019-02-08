@@ -1,3 +1,7 @@
+/*
+ВОзвращает кол уникальных элементов списка
+*/
+
 package collektions;
 
 import java.util.*;
