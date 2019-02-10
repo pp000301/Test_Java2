@@ -3,7 +3,7 @@
 наименьшего из двух элементов. Наложите соответствующее ограничение на обобщенный тип Е
 * */
 
-package generics.hw;
+package generics.hw.iterator;
 
 public class Pair1<E extends Comparable> {
     E i;

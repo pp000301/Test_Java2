@@ -1,4 +1,4 @@
-package generics;
+package generics.hw;
 
 public class Pair<K,V> {
     private K key;

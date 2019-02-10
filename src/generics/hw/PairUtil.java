@@ -1,4 +1,4 @@
-package generics;
+package generics.hw;
 
 public final class PairUtil {
 

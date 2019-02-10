@@ -2,7 +2,7 @@
  предыдущего задания (т.е. Iterator<Integer>) от этих Pair<Integer>.
 */
 
-package generics.hw;
+package generics.hw.iterator;
 import java.util.Iterator;
 import java.util.List;
 

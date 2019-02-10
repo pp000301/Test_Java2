@@ -1,8 +1,7 @@
-package generics;
+package generics.hw;
 
-import generics.hw.MaxIterator;
-import generics.hw.Pair1;
-import generics.hw.TreeMap;
+import generics.hw.iterator.MaxIterator;
+import generics.hw.iterator.Pair1;
 
 import java.util.*;
 
