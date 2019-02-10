@@ -3,9 +3,7 @@
 наименьшего из двух элементов. Наложите соответствующее ограничение на обобщенный тип Е
 * */
 
-
 package generics.hw;
-
 
 public class Pair1<E extends Comparable> {
     E i;
@@ -40,6 +38,14 @@ public class Pair1<E extends Comparable> {
             return i;
         } else
             return k;
+    }
+
+    @Override
+    public String toString() {
+        return "Pair1{" +
+                "i=" + i +
+                ", k=" + k +
+                '}';
     }
 
 }
