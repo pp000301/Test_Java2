@@ -13,10 +13,7 @@ public class Zadacha1 {
 
 
 
-    //hasdgfgsafdgsfahdgfasgdfghasd
 
-    //hasdgfgsafdgsfahdgfasgdfghasd
-    //hasdgfgsafdgsfahdgfasgdfghasd
 
     public static void main(String[] args) {
         Scanner sr =new Scanner(System.in);
