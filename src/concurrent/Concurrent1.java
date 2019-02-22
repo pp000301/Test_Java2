@@ -3,10 +3,13 @@ package concurrent;
 
 public class Concurrent1 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Thread thread = getThread();
+
         thread.start();
+
+        thread.join();
 
         getMain();
 
