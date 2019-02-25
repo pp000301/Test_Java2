@@ -3,29 +3,44 @@ package concurrent;
 
 public class Concurrent1 {
 
+    private static final Object monitor = new Object();
+
     public static void main(String[] args) throws InterruptedException {
 
-        Thread thread = getThread();
+        Thread thread = new Thread(() -> {
+            synchronized (monitor) {
+                for (int i = 0; i < 5; i++) {
+                    print1("hello1");
+                    try {
+                        monitor.notify();
+                        monitor.wait();
+                        monitor.notify();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        });
 
         thread.start();
 
-        thread.join();
+        synchronized (monitor) {
 
-        getMain();
-
-    }
-
-    private static void getMain() {
-        for (int i = 0; i < 10; i++) {
-            System.out.println("main" + i);
-        }
-    }
-
-    private static Thread getThread() {
-        return new Thread(() -> {
-            for (int i = 0; i < 10; i++) {
-                System.out.println("thread" + i);
+            for (int i = 0; i < 5; i++) {
+                print1("Hello");
+                monitor.notify();
+                monitor.wait();
+                monitor.notify();
             }
-        });
+        }
+
     }
+
+    public static void print1(String s) {
+
+        System.out.println(s);
+
+    }
+
+
 }
