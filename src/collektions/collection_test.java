@@ -10,7 +10,7 @@ public class collection_test {
         persons.add("Natalia");// Добавление в коллекцию
         persons.add("Sergey");
         persons.add("Yurii");
-        persons.add("Konstantin");
+        persons.add("Konstantin");//kasjkdjksajdksjakdjsd
 
         persons.set(2,"Igor");// замена 2 элемента коллекции .... индексация в колекциях с нуля
 
