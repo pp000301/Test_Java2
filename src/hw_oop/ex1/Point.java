@@ -8,11 +8,11 @@
  Реализуйте эти методы таким образом, чтобы они возвращали новые точки в качестве результата*/
 
 
-package oop_Test.hw;
+package hw_oop.ex1;
 
 public class Point {
-    double x;
-    double y;
+    public double x;
+    public double y;
 
     public Point(double x, double y) {
         this.x = x;
@@ -34,10 +34,10 @@ public class Point {
 
     public Point scale(double scale) {
 
-        this.x *= scale;
-        this.y *= scale;
+        x *= scale;
+        y *= scale;
 
-        Point point = new Point(this.x, this.y);
+        Point point = new Point(x, y);
         return point;
     }
 }

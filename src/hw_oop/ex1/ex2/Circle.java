@@ -1,4 +1,6 @@
-package oop_Test.hw;
+package hw_oop.ex1.ex2;
+
+import hw_oop.ex1.Point;
 
 public class Circle extends Point implements Figures {
     int radius;

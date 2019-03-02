@@ -1,4 +1,4 @@
-package oop_Test.hw.figuresLibrary;
+package hw_oop.ex1.ex3;
 
 public class Parallelogram extends Foursquare {
     int h; // Высота параллелограма
