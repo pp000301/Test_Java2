@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
 
-        // ex1---------------------------------------------
+        // Ex1---------------------------------------------
         Predicate<Integer> integerPredicate = test -> test > 0;
         integerPredicate.test(3);
         MyPredicate<Integer> myPredicate = (arg, arg2, arg3) -> arg + arg2 + arg3 > 0;
