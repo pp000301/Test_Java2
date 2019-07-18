@@ -4,29 +4,29 @@ public class Concurent3 {
 
     public static void main(String[] args) {
 
-        new Thread(new MyRaneble("aaa"));
-
-        Thread a =new Thread(()->{
-            printString("aaa1","bbb1","ccc1");
-        });
-        Thread b =new Thread(()->{
-            printString("aaa2","bbb2","ccc2");
-        });
-        Thread c =new Thread(()->{
-            printString("aaa3","bbb3","ccc3");
-        });
-        Thread d =new Thread(()->{
-            printString("aaa4","bbb4","ccc4");
-        });
-
-        a.start();
-
-        b.start();
-
-        c.start();
-
-        d.start();
-    }
+//        new Thread(new MyRaneble("aaa"));
+//
+//        Thread a =new Thread(()->{
+//            printString("aaa1","bbb1","ccc1");
+//        });
+//        Thread b =new Thread(()->{
+//            printString("aaa2","bbb2","ccc2");
+//        });
+//        Thread c =new Thread(()->{
+//            printString("aaa3","bbb3","ccc3");
+//        });
+//        Thread d =new Thread(()->{
+//            printString("aaa4","bbb4","ccc4");
+//        });
+//
+//        a.start();
+//
+//        b.start();
+//
+//        c.start();
+//
+//        d.start();
+//    }
 
     public static synchronized void printString(String a,String b, String c) {
 
